@@ -1,4 +1,5 @@
 'use strict';
+import '../main.scss';
 
 document.addEventListener('DOMContentLoaded', () => {
   const photos = document.querySelectorAll('.header__photo');
