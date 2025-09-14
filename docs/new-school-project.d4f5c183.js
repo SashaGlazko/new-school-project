@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",()=>{let e=document.querySelectorAll(".header__photo"),t=document.querySelector(".slider__link-r"),n=document.querySelector(".slider__link-l"),l=0;function r(t){e.forEach((e,n)=>{e.classList.toggle("active",n===t)})}t.addEventListener("click",t=>{t.preventDefault(),r(l=(l+1)%e.length)}),n.addEventListener("click",t=>{t.preventDefault(),r(l=(l-1+e.length)%e.length)}),r(l)});
+//# sourceMappingURL=new-school-project.d4f5c183.js.map
