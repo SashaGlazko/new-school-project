@@ -5,17 +5,17 @@
 
   @include hover(transform, scale(1.2));
   &--menu {
-    background-image: url(/src/images/logo/Menu.svg);
+    background-image: url(./images/logo/Menu.svg);
 
     @include on-small-desktop {
       display: none;
     }
   }
   &--close {
-    background-image: url(/src/images/logo/icon-close.svg);
+    background-image: url(./images/logo/icon-close.svg);
   }
 
   &--item {
-    background-image: url(/src/images/logo/icon-item.svg);
+    background-image: url(./images/logo/icon-item.svg);
   }
 }

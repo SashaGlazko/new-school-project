@@ -3,7 +3,7 @@
   box-sizing: border-box;
   background-color: $c-white;
   padding-block: 72px;
-  background-image: url(/src/images/Shapes.png);
+  background-image: url(./images/Shapes.png);
   background-position: center;
 
   @include on-tablet {
